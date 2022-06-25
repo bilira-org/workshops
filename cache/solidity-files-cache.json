@@ -1,0 +1,192 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/toprakkeskin/Desktop/repos/workshops/contracts/01-RpgBaseCharacterFactory.sol": {
+      "lastModificationDate": 1656161202302,
+      "contentHash": "96f9d4b3f8804f46ed038ea373fa0a17",
+      "sourceName": "contracts/01-RpgBaseCharacterFactory.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "RpgBaseCharacterFactory"
+      ]
+    },
+    "/Users/toprakkeskin/Desktop/repos/workshops/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1656161037874,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/Users/toprakkeskin/Desktop/repos/workshops/contracts/02-RpgEnhancedCharacterFactory.sol": {
+      "lastModificationDate": 1656161256390,
+      "contentHash": "e7e35c0ecff79f59f75d31261584b49e",
+      "sourceName": "contracts/02-RpgEnhancedCharacterFactory.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol",
+        "./01-RpgBaseCharacterFactory.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "RpgEnhancedCharacterFactory"
+      ]
+    },
+    "/Users/toprakkeskin/Desktop/repos/workshops/contracts/03-RpgBattleSystem.sol": {
+      "lastModificationDate": 1656161264613,
+      "contentHash": "e1ddfe61d56e4887ec4aeb5650768ed3",
+      "sourceName": "contracts/03-RpgBattleSystem.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol",
+        "./02-RpgEnhancedCharacterFactory.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "RpgBattleSystem"
+      ]
+    },
+    "/Users/toprakkeskin/Desktop/repos/workshops/contracts/04-NextSteps.sol": {
+      "lastModificationDate": 1656161317644,
+      "contentHash": "f61c28f7059931fb3ec3e5f8e681813b",
+      "sourceName": "contracts/04-NextSteps.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol",
+        "./03-RpgBattleSystem.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "RpgGame",
+        "RpgRewardSystem"
+      ]
+    }
+  }
+}
